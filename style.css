@@ -15,7 +15,7 @@ a{
 
 .header{
 	background: rgb(162,86,159);
-background: linear-gradient(145deg, rgba(162,86,159,1) 0%, rgba(184,77,184,1) 35%, rgba(117,62,110,1) 100%);
+	background: linear-gradient(145deg, rgb(255, 249, 162) 0%, rgb(255, 250, 175) 35%, rgb(255, 238, 86) 100%);
 	box-shadow: 0px -5px 15px black;
 	padding-inline: 16px;
 }
@@ -33,13 +33,13 @@ background: linear-gradient(145deg, rgba(162,86,159,1) 0%, rgba(184,77,184,1) 35
 .logo{
 	font-size: 48px;
 	font-weight: bold;
-	color: rgb(255, 230, 251);
+	color: rgb(255, 255, 255);
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: rgb(255, 149, 216);
 	transition: 0.3s;
 }
 .logo:hover{
-	color: rgb(250, 255, 186);
+	color: rgb(251, 209, 255);
 }
 
 .nav-list{
@@ -49,27 +49,58 @@ background: linear-gradient(145deg, rgba(162,86,159,1) 0%, rgba(184,77,184,1) 35
 }
 
 .nav-list a{
-	font-size: 18px;
+	font-size: 26px;
 	color: white;
 	padding-block: 16px;
+}
+
+.nav-list:hover{
+	color: rgb(255, 219, 252);
 }
 
 .jumbo{
 	width: 100%;
 	height: 80vh;
-	background-color: black;
+
   	padding: 0px;
   	margin: 0px;
-}
 
-.jumbo-overlay{
-	width: 100%;
-	height: 100%;
+	display: grid;
+	place-items: center;
 }
 
 .jumbo-image{
 	width: 100%;
-	height: 100%;
+	height: 80vh;
 	object-fit: cover;
+
+	grid-area: 1/1;
 }
 
+.jumbo-overlay{
+	box-shadow: inset 0px -50px 150px black;
+	width: 100%;
+	height: 80vh;
+	
+	
+
+	grid-area: 1/1;
+}
+
+.jumbo-text-box{
+	width: 60%;
+	height: 20%;
+	background-color: #242424;
+	display: flex;
+	padding-left: 2%;
+    align-items: center;
+	
+	position: absolute;
+	bottom: 5%;
+}
+
+.jumbo-text{
+	color:white;
+	font-weight: bold;
+	font-size: 42px;
+}
