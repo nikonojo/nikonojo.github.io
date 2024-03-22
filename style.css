@@ -84,8 +84,6 @@ a{
 	box-shadow: inset 0px -50px 150px black;
 	width: 100%;
 	height: 80vh;
-	
-	
 
 	grid-area: 1/1;
 }
@@ -108,6 +106,28 @@ a{
 	font-size: 42px;
 }
 
+.page-buttons{
+	width: 2%;
+	height: 50%;
+	padding-left: 90%;
+	position: absolute;
+	bottom: 0;
+}
+
+.next-page-button{
+	width: 100%;
+	height: 100%;
+}
+
+.next-page{
+	width: 20vh;
+	height: 20vh;
+
+	object-position: right;
+	max-width: 120px;
+	background-color: transparent;
+}
+
 .headline{
 	margin-top: 50px;
 
@@ -128,25 +148,4 @@ a{
 	height: 400px;
 	background-color: #242424;
 }
-
-.swiper {
-	width: 100%;
-	height: 100%;
-  }
-
-  .swiper-slide {
-	text-align: center;
-	font-size: 18px;
-	background: #fff;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-  }
-
-  .swiper-slide img {
-	display: block;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-  }
   
