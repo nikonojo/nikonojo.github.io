@@ -112,6 +112,7 @@ a{
 	padding-left: 90%;
 	position: absolute;
 	bottom: 0;
+	left: 0;
 }
 
 .next-page-button{
@@ -126,6 +127,7 @@ a{
 	object-position: right;
 	max-width: 120px;
 	background-color: transparent;
+	border: none;
 }
 
 .headline{
