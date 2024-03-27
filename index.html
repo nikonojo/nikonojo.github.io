@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <title>nikonojo</title>
+    <link rel="icon" type="image/x-icon" href="Images\Icons\favicon.png">
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
@@ -25,24 +26,36 @@
             <div class="jumbo-overlay">
                 <div class="page-buttons">
                     <script src="jumbo.js"></script>
-                    <button class="next-page" id="jumbo-button" onclick="SwitchPage();"> 
+                    <button class="next-page" id="jumbo-button" onclick="SwitchPage(-1);"> 
                         <img class="next-page-button" src="Images\Icons\left-arrow.png"></img> 
                     </button>
-                    <button class="next-page" id="jumbo-button" onclick="SwitchPage();"> 
+                    <button class="next-page" id="jumbo-button" onclick="SwitchPage(1);"> 
                         <img class="next-page-button" src="Images\Icons\right-arrow.png"></img> 
                     </button>
                 </div>
                 <div class="jumbo-text-box">
-                    <div class="jumbo-text">PROJECT: STARLIGHT</div>
+                    <div id="jumbo-text" class="jumbo-text">PROJECT: STARLIGHT</div>
                 </div>
             </div>
         </div>
 
-        <div class="headline">LATEST NEWS</div>
+        <div class="headline">LATEST UPDATES</div>
         <div class="news-grid">
             <div class="news-box"">
             </div>
         </div>
     </main>
+
+    <footer>
+        <a href="https://www.youtube.com/@GojoDiana" target="_blank">
+            <img src="Images\Icons\youtube-icon.png" class="social-icon">
+        </a>
+        <a href="https://www.youtube.com/@GojoDiana" target="_blank">
+            <img src="Images\Icons\instagram-icon.png" class="social-icon">
+        </a>
+        <a href="https://www.youtube.com/@GojoDiana" target="_blank" class="social-link">
+            <img src="Images\Icons\youtube-icon.png" class="social-icon">
+        </a>
+      </footer> 
 </body>
 </html>
